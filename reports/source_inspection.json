@@ -1,0 +1,507 @@
+{
+  "sheets": [
+    "Year 2009-2010",
+    "Year 2010-2011"
+  ],
+  "sheet_details": [
+    {
+      "sheet": "Year 2009-2010",
+      "rows": 525461,
+      "date_min": "2009-12-01 07:45:00",
+      "date_max": "2010-12-09 20:01:00"
+    },
+    {
+      "sheet": "Year 2010-2011",
+      "rows": 541910,
+      "date_min": "2010-12-01 08:26:00",
+      "date_max": "2011-12-09 12:50:00"
+    }
+  ],
+  "shape": [
+    1067371,
+    8
+  ],
+  "columns": [
+    "Invoice",
+    "StockCode",
+    "Description",
+    "Quantity",
+    "InvoiceDate",
+    "Price",
+    "Customer ID",
+    "Country"
+  ],
+  "dtypes": {
+    "Invoice": "string",
+    "StockCode": "string",
+    "Description": "object",
+    "Quantity": "int64",
+    "InvoiceDate": "datetime64[ns]",
+    "Price": "float64",
+    "Customer ID": "string",
+    "Country": "object"
+  },
+  "missing": {
+    "Invoice": 0,
+    "StockCode": 0,
+    "Description": 4382,
+    "Quantity": 0,
+    "InvoiceDate": 0,
+    "Price": 0,
+    "Customer ID": 243007,
+    "Country": 0
+  },
+  "exact_duplicates": 34335,
+  "min_date": "2009-12-01 07:45:00",
+  "max_date": "2011-12-09 12:50:00",
+  "cancellations": 19494,
+  "negative_quantity": 22950,
+  "zero_quantity": 0,
+  "nonpositive_price": 6207,
+  "nonstandard_codes": {
+    "POST": 2122,
+    "DOT": 1446,
+    "M": 1421,
+    "C2": 282,
+    "D": 177,
+    "S": 104,
+    "BANK CHARGES": 102,
+    "ADJUST": 67,
+    "AMAZONFEE": 43,
+    "DCGS0058": 31,
+    "gift_0001_20": 29,
+    "gift_0001_30": 29,
+    "DCGSSGIRL": 25,
+    "DCGSSBOY": 23,
+    "PADS": 19,
+    "CRUK": 16,
+    "gift_0001_10": 16,
+    "DCGS0076": 15,
+    "TEST001": 15,
+    "DCGS0003": 14,
+    "gift_0001_50": 8,
+    "gift_0001_40": 7,
+    "B": 6,
+    "DCGS0069": 6,
+    "DCGS0004": 5,
+    "m": 5,
+    "gift_0001_80": 4,
+    "DCGS0066N": 4,
+    "DCGS0072": 4,
+    "DCGS0068": 3,
+    "DCGS0070": 3,
+    "SP1002": 3,
+    "gift_0001_70": 3,
+    "ADJUST2": 3,
+    "TEST002": 2,
+    "gift_0001_60": 2,
+    "DCGS0037": 2,
+    "gift_0001_90": 2,
+    "DCGS0062": 2,
+    "DCGS0016": 1,
+    "DCGS0044": 1,
+    "DCGS0006": 1,
+    "DCGSLBOY": 1,
+    "GIFT": 1,
+    "DCGS0027": 1,
+    "DCGS0036": 1,
+    "DCGSLGIRL": 1,
+    "DCGS0053": 1,
+    "DCGS0039": 1,
+    "DCGS0060": 1,
+    "DCGS0056": 1,
+    "DCGS0059": 1,
+    "DCGS0041": 1,
+    "DCGS0075": 1,
+    "C3": 1,
+    "DCGS0055": 1,
+    "DCGS0057": 1,
+    "DCGS0074": 1,
+    "DCGS0073": 1,
+    "DCGS0071": 1,
+    "DCGS0066P": 1,
+    "DCGS0067": 1
+  },
+  "nonstandard_descriptions": [
+    {
+      "StockCode": "POST",
+      "Description": "POSTAGE"
+    },
+    {
+      "StockCode": "D",
+      "Description": "Discount"
+    },
+    {
+      "StockCode": "DCGS0058",
+      "Description": "MISO PRETTY  GUM"
+    },
+    {
+      "StockCode": "DCGS0068",
+      "Description": "DOGS NIGHT COLLAR"
+    },
+    {
+      "StockCode": "DOT",
+      "Description": "DOTCOM POSTAGE"
+    },
+    {
+      "StockCode": "M",
+      "Description": "Manual"
+    },
+    {
+      "StockCode": "DCGS0004",
+      "Description": "HAYNES CAMPER SHOULDER BAG"
+    },
+    {
+      "StockCode": "DCGS0076",
+      "Description": "SUNJAR LED NIGHT NIGHT LIGHT"
+    },
+    {
+      "StockCode": "C2",
+      "Description": "CARRIAGE"
+    },
+    {
+      "StockCode": "BANK CHARGES",
+      "Description": " Bank Charges"
+    },
+    {
+      "StockCode": "DCGS0003",
+      "Description": "BOXED GLASS ASHTRAY"
+    },
+    {
+      "StockCode": "TEST001",
+      "Description": "This is a test product."
+    },
+    {
+      "StockCode": "gift_0001_80",
+      "Description": ""
+    },
+    {
+      "StockCode": "DCGS0072",
+      "Description": "CAT CAMOUFLAGUE COLLAR"
+    },
+    {
+      "StockCode": "gift_0001_80",
+      "Description": "Dotcomgiftshop Gift Voucher \u00a380.00"
+    },
+    {
+      "StockCode": "gift_0001_20",
+      "Description": "Dotcomgiftshop Gift Voucher \u00a320.00"
+    },
+    {
+      "StockCode": "C2",
+      "Description": ""
+    },
+    {
+      "StockCode": "DCGS0044",
+      "Description": "HANDZ-OFF CAR FRESHENER"
+    },
+    {
+      "StockCode": "TEST002",
+      "Description": "This is a test product."
+    },
+    {
+      "StockCode": "gift_0001_10",
+      "Description": "Dotcomgiftshop Gift Voucher \u00a310.00"
+    },
+    {
+      "StockCode": "gift_0001_50",
+      "Description": "Dotcomgiftshop Gift Voucher \u00a350.00"
+    },
+    {
+      "StockCode": "DCGS0066N",
+      "Description": "NAVY CUDDLES DOG HOODIE"
+    },
+    {
+      "StockCode": "DCGS0066N",
+      "Description": ""
+    },
+    {
+      "StockCode": "TEST002",
+      "Description": ""
+    },
+    {
+      "StockCode": "gift_0001_30",
+      "Description": "Dotcomgiftshop Gift Voucher \u00a330.00"
+    },
+    {
+      "StockCode": "gift_0001_30",
+      "Description": ""
+    },
+    {
+      "StockCode": "PADS",
+      "Description": "PADS TO MATCH ALL CUSHIONS"
+    },
+    {
+      "StockCode": "ADJUST",
+      "Description": "Adjustment by john on 26/01/2010 16"
+    },
+    {
+      "StockCode": "ADJUST",
+      "Description": "Adjustment by john on 26/01/2010 17"
+    },
+    {
+      "StockCode": "gift_0001_50",
+      "Description": ""
+    },
+    {
+      "StockCode": "gift_0001_40",
+      "Description": ""
+    },
+    {
+      "StockCode": "gift_0001_60",
+      "Description": ""
+    },
+    {
+      "StockCode": "gift_0001_70",
+      "Description": ""
+    },
+    {
+      "StockCode": "gift_0001_90",
+      "Description": ""
+    },
+    {
+      "StockCode": "DCGSSGIRL",
+      "Description": ""
+    },
+    {
+      "StockCode": "DCGS0006",
+      "Description": ""
+    },
+    {
+      "StockCode": "DCGS0016",
+      "Description": ""
+    },
+    {
+      "StockCode": "DCGS0027",
+      "Description": ""
+    },
+    {
+      "StockCode": "DCGS0036",
+      "Description": ""
+    },
+    {
+      "StockCode": "DCGS0039",
+      "Description": ""
+    },
+    {
+      "StockCode": "DCGS0060",
+      "Description": ""
+    },
+    {
+      "StockCode": "DCGS0056",
+      "Description": ""
+    },
+    {
+      "StockCode": "DCGS0059",
+      "Description": ""
+    },
+    {
+      "StockCode": "GIFT",
+      "Description": ""
+    },
+    {
+      "StockCode": "DCGSLBOY",
+      "Description": ""
+    },
+    {
+      "StockCode": "m",
+      "Description": "Manual"
+    },
+    {
+      "StockCode": "DCGS0053",
+      "Description": ""
+    },
+    {
+      "StockCode": "DCGS0004",
+      "Description": ""
+    },
+    {
+      "StockCode": "DCGS0062",
+      "Description": ""
+    },
+    {
+      "StockCode": "DCGS0037",
+      "Description": ""
+    },
+    {
+      "StockCode": "DCGSSBOY",
+      "Description": ""
+    },
+    {
+      "StockCode": "DCGSLGIRL",
+      "Description": ""
+    },
+    {
+      "StockCode": "S",
+      "Description": "SAMPLES"
+    },
+    {
+      "StockCode": "BANK CHARGES",
+      "Description": "Bank Charges"
+    },
+    {
+      "StockCode": "DCGS0069",
+      "Description": "OOH LA LA DOGS COLLAR"
+    },
+    {
+      "StockCode": "DCGS0070",
+      "Description": "CAMOUFLAGE DOG COLLAR"
+    },
+    {
+      "StockCode": "DCGS0075",
+      "Description": "CAMOUFLAGUE DOG LEAD"
+    },
+    {
+      "StockCode": "B",
+      "Description": "Adjust bad debt"
+    },
+    {
+      "StockCode": "POST",
+      "Description": ""
+    },
+    {
+      "StockCode": "ADJUST",
+      "Description": "Adjustment by Peter on 24/05/2010 1"
+    },
+    {
+      "StockCode": "DCGS0041",
+      "Description": "HAYNES MINI-COOPER PLAYING CARDS"
+    },
+    {
+      "StockCode": "gift_0001_70",
+      "Description": "Dotcomgiftshop Gift Voucher \u00a370.00"
+    },
+    {
+      "StockCode": "DCGS0037",
+      "Description": "KEY-RING CORKSCREW"
+    },
+    {
+      "StockCode": "DCGSSBOY",
+      "Description": "update"
+    },
+    {
+      "StockCode": "DCGSSGIRL",
+      "Description": "update"
+    },
+    {
+      "StockCode": "DCGSSBOY",
+      "Description": "BOYS PARTY BAG"
+    },
+    {
+      "StockCode": "DCGSSGIRL",
+      "Description": "GIRLS PARTY BAG"
+    },
+    {
+      "StockCode": "ADJUST2",
+      "Description": "Adjustment by Peter on Jun 25 2010 "
+    },
+    {
+      "StockCode": "gift_0001_20",
+      "Description": ""
+    },
+    {
+      "StockCode": "DOT",
+      "Description": ""
+    },
+    {
+      "StockCode": "gift_0001_10",
+      "Description": ""
+    },
+    {
+      "StockCode": "gift_0001_40",
+      "Description": "Dotcomgiftshop Gift Voucher \u00a340.00"
+    },
+    {
+      "StockCode": "C3",
+      "Description": ""
+    },
+    {
+      "StockCode": "SP1002",
+      "Description": "KID'S CHALKBOARD/EASEL"
+    },
+    {
+      "StockCode": "DCGS0058",
+      "Description": ""
+    },
+    {
+      "StockCode": "DCGS0062",
+      "Description": "ROAD-RAGE CAR FRESHENER"
+    },
+    {
+      "StockCode": "SP1002",
+      "Description": ""
+    },
+    {
+      "StockCode": "AMAZONFEE",
+      "Description": "AMAZON FEE"
+    },
+    {
+      "StockCode": "DCGS0055",
+      "Description": ""
+    },
+    {
+      "StockCode": "DCGS0072",
+      "Description": ""
+    },
+    {
+      "StockCode": "DCGS0074",
+      "Description": ""
+    },
+    {
+      "StockCode": "DCGS0057",
+      "Description": ""
+    },
+    {
+      "StockCode": "gift_0001_20",
+      "Description": "to push order througha s stock was "
+    },
+    {
+      "StockCode": "DCGS0073",
+      "Description": "ebay"
+    },
+    {
+      "StockCode": "DCGS0071",
+      "Description": ""
+    },
+    {
+      "StockCode": "DCGS0070",
+      "Description": ""
+    },
+    {
+      "StockCode": "DCGS0066P",
+      "Description": ""
+    },
+    {
+      "StockCode": "DCGS0069",
+      "Description": "ebay"
+    },
+    {
+      "StockCode": "DCGS0068",
+      "Description": "ebay"
+    },
+    {
+      "StockCode": "DCGS0067",
+      "Description": "ebay"
+    },
+    {
+      "StockCode": "DCGS0003",
+      "Description": "ebay"
+    },
+    {
+      "StockCode": "CRUK",
+      "Description": "CRUK Commission"
+    }
+  ],
+  "top_quantities": [
+    80995.0,
+    74215.0,
+    19152.0,
+    12960.0,
+    12960.0,
+    12744.0,
+    12540.0,
+    12480.0,
+    10200.0,
+    10000.0
+  ]
+}

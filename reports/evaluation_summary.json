@@ -1,0 +1,27 @@
+{
+  "selected_model": "trailing_4_week",
+  "selected_method": "trailing_4_week",
+  "selected_tree_candidate": "forest_small",
+  "training_start": "2009-12-07",
+  "initial_training_end": "2011-07-11",
+  "validation_start": "2011-07-18",
+  "validation_end": "2011-10-03",
+  "test_start": "2011-10-10",
+  "test_end": "2011-11-28",
+  "validation_origins": [
+    "2011-07-18",
+    "2011-08-15",
+    "2011-09-12"
+  ],
+  "test_origins": [
+    "2011-10-10",
+    "2011-11-07"
+  ],
+  "n_products": 30,
+  "n_weeks": 104,
+  "products_tree_worse_than_any_baseline": 22,
+  "wape_units": "fraction; multiply by 100 for percent; undefined if actual total is zero",
+  "weekly_sha256": "69023bbf95f733bee74584f0ce8787000e2bd9941ef9996c41f6b831d23e06f2",
+  "source_sha256": "bcbe73b35f5b7babf197fb0cb983a11f5d9ff929078d4aa53d171b1f2df2e980",
+  "training_seconds": 3.52
+}

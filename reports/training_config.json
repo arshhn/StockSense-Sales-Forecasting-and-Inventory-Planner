@@ -1,0 +1,22 @@
+{
+  "random_seed": 42,
+  "horizon": 4,
+  "validation_weeks": 12,
+  "test_weeks": 8,
+  "initial_training_weeks": 84,
+  "candidates": {
+    "forest_small": {
+      "n_estimators": 80,
+      "max_depth": 8,
+      "min_samples_leaf": 4
+    },
+    "forest_flexible": {
+      "n_estimators": 120,
+      "max_depth": 12,
+      "min_samples_leaf": 2
+    }
+  },
+  "selection_metric": "WAPE; MAE when actual sum is zero",
+  "recursive_forecasts": true,
+  "test_protocol": "nonoverlapping rolling-origin blocks with expanding-history refits"
+}
