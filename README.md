@@ -4,7 +4,7 @@ A laptop-friendly ML portfolio project that forecasts weekly product sales and t
 
 The app is a historical demonstration: the last complete observed week ends **4 December 2011**. “Next week” means 5 December 2011, not next week in the current year. There is no live stock feed.
 
-## Run it
+## Run it..
 
 Use **Python 3.12** (3.11–3.13 supported; 3.14 is excluded by the pinned environment). Run all commands from this repository's root. Allow a few minutes for installation and reading the million-row workbook; Excel parsing is slower than model fitting. Plan for roughly 1 GB free disk space plus the Python environment and several GB available RAM.
 
