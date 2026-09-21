@@ -16,3 +16,9 @@ Environment: Windows 11, Python 3.12.14, direct pinned dependencies recorded in 
 The tests use deliberately constructed fixtures only for correctness. Forecast scores use the real UCI workbook. The full app test loads the real prepared database and model, switches through all three forecast methods, changes product and chart horizon, changes all four inventory inputs, and checks that sufficient stock produces a zero replenishment suggestion. It also covers missing-data setup and stale-artifact handling.
 
 The raw workbook SHA-256 is `bcbe73b35f5b7babf197fb0cb983a11f5d9ff929078d4aa53d171b1f2df2e980`. Prepared weekly-panel SHA-256 is `69023bbf95f733bee74584f0ce8787000e2bd9941ef9996c41f6b831d23e06f2`.
+
+## UI refresh verification — 21 September 2026
+
+The dashboard now uses a light teal/navy theme, Helvetica-first typography, a paired forecast/replenishment layout, and clearer evaluation tables. Helvetica is not installed on this Windows machine, so Arial is the local fallback. The typography and primary dashboard were visually reviewed during development.
+
+After the project folder was renamed, the initial app-only test run encountered startup timeouts. A subsequent complete run passed: **48 tests in 17.19 seconds**. The Streamlit health endpoint returned `ok` at `http://127.0.0.1:8501`. No forecasting models were retrained for this presentation change.
